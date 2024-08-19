@@ -72,6 +72,43 @@ address{
 }
 
  
+@media (max-width: 767px) {
+    .mapStyle {
+        flex-direction: column;
+        height: auto; 
+        margin: auto;
+        width: 90%;
+    }
 
+    .imageContainer {
+        border-right: none; 
+    }
+    .imageContainer img{
+        border-bottom: 8px solid #2C3B6F;
+    }
+
+    .textStyle {
+        padding: 1rem; 
+        width: 100%; 
+        text-align: center; 
+        
+    }
+
+    .textStyle h2 {
+        font-size: 1.5rem; 
+    }
+
+    .textStyle p {
+        font-size: 0.9rem; 
+        width: 90%;
+        padding-top: 1rem; 
+        padding: 1rem;
+    }
+
+    address {
+        font-size: 0.9rem; 
+        padding: 1.5rem;
+    }
+}
 
 

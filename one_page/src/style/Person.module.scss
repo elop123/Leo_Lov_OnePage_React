@@ -3,7 +3,7 @@
 .personGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 20px; 
+    gap: 10px; 
     padding: 20px;
     padding-bottom: 4rem;
     h2{
@@ -12,10 +12,9 @@
 }
 
 .personCard {
-    
     padding: 20px;
     text-align: center;
-   border-bottom: 8px solid #2C3B6F;
+    border-bottom: 8px solid #2C3B6F;
 }
 
 .personImage {
@@ -36,4 +35,28 @@
 .personText {
     font-size: 1rem;
     color: $textcolor;
+}
+
+@media (max-width: 767px) {
+    .personGrid {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px; 
+    }
+
+    .personCard {
+        padding: 10px;
+    }
+
+    .personImage {
+        width: 140px;
+        height: 140px;
+    }
+
+    .personName {
+        font-size: 1rem;
+    }
+
+    .personText {
+        font-size: 0.9rem;
+    }
 }

@@ -6,8 +6,9 @@
     gap: 2rem;
     align-items: center;
     padding: 20px;
-    padding-top: 21rem;
+    padding-top: 15rem;
     margin-bottom: 3rem;
+    
 }
 
 .section {
@@ -20,21 +21,6 @@
     margin: 0 auto;
     
 }
-
-.section:nth-last-child(1){
-    flex-direction: row-reverse;
-}
-
-.section_image {
-    flex: 1 1 50%;
-    height: 100%; 
-    border-right: 8px solid #2C3B6F;
-}
-.section_image:last-child{
-    border: 8px solid #2C3B6F;
-    
-}
-
 
 .section_image img {
     width: 100%;
@@ -67,14 +53,85 @@
     
 }
 
-
-
-.normalLayout {
-    flex-direction: row; 
-   
+.section:nth-last-child(1){
+    flex-direction: row-reverse;
+    
 }
 
-.reverseLayout {
-    flex-direction: row-reverse; 
+.section_image {
+    flex: 1 1 50%;
+     height: 100%; 
+     //border-right: 8px solid #2C3B6F;
+ }
+.section_image:last-child{
+    border: 8px solid #2C3B6F;
+}
+
+
+
+
+
+
+// @media (max-width: 1024px) {
+//     .section {
+//         flex-direction: column; /* Stack items vertically on tablets */
+//         height: auto; /* Allow height to adjust automatically */
+//     }
+
+//     .section_image {
+//         border-right: none; /* Remove border-right for mobile */
+//         width: 100%; /* Full width for mobile */
+//     }
+
+//     .section_text {
+//         width: 90%; /* Adjust text width for better readability */
+//         padding: 1rem; /* Adjust padding for mobile */
+//     }
+// }
+
+
+
+@media (max-width: 767px) {
+    .section {
+        flex-direction: column;
+        height: auto; 
+        margin: auto;
+        width: 100%;
+        
+    }
+    .section:nth-last-child(1){
+        flex-direction: column-reverse;
+        img{
+        border-top: 8px solid #2C3B6F;
+        //border-right: none;
+        
+        }
+    }
+
+    .section_image  img{
+        width: 100%;
+        flex-direction: column;
+        border-right: none;
+       
+    }
+    .section_image:first-child{
+        border-bottom: 4px solid #2C3B6F;
+    }
+
+    .section_text {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section_text h2 {
+        font-size: 1.5rem;
+    }
+
+    .section_text p {
+        font-size: 0.9rem;
+        width: 90%;
+        padding-top: 1rem;
+    }
    
 }
