@@ -15,7 +15,7 @@ function Map(){
     return(
         <>
          <div className={style.mapStyle}>
-                    <div>
+                    <div className={style.imageContainer}>
                         <img src={map.image} alt="img" />
                     </div>
                     <div className={style.textStyle}>
