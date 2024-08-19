@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+.imageContainer {
+    position: relative;
+    width: 100%; 
+    height: auto;
+    max-width: 100%; 
+    
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.textStyle{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $bgcolor; 
+    text-align: right;
+    //padding-left: 10rem;
+    margin: 0;
+    padding: 0;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+    
+}
+
+.title {
+    font-size: 5rem; 
+    font-weight: bold;
+    //line-height: 151px;
+    padding: auto 1rem;
+    margin-bottom: -1.5rem;
+    span{
+        color: $maincolor;
+    }
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+    color: $bgcolor;
+   
+}
