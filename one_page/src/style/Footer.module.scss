@@ -5,24 +5,34 @@
     color: white;
     display: flex;
     justify-content: space-around;
-    padding: 12px;
-    
-    margin: 12px;
-    //align-items: baseline;
+    padding: 1rem ;
+    margin: 1rem;
   }
   
   .footerStyle h3 {
-    padding-left: 12px;
-    margin-bottom: 10px;
+    //padding-left: 12px;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
     font-size: 32px;
-    font-family: 'Jura';
+    font-family: "Jura", sans-serif;
+    font-weight: normal;
+    text-align: left;
   }
   
   .footerStyle p {
-    //margin: 15px 0;
+   padding-top: -1rem;
     font-size: 16px;
-    font-family: 'Inter';
+    text-align: left;
+    font-family: "Inter", sans-serif;
     color: $bgcolor;
+    font-weight: normal;
     
   }
   
+  .footerStyle img{
+    margin: 1rem;
+  }
+
+  .footerStyle:nth-child(-n+3) img {
+    display: none;
+}

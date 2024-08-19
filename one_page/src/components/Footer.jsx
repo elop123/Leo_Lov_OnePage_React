@@ -1,4 +1,6 @@
  import style from '../style/Footer.module.scss'
+ import icon1 from'../assets/images/Vector (4).png'
+ import icon2 from '../assets/images/Vector (5).png'
  
  function Footer(){
      const footerProps = [{
@@ -20,9 +22,8 @@
              p4:'Generalle betingelse '
              },
              {h3:'Sociale Media',
-                
-               
-                },
+             icon:icon1,
+             in:icon2}
 
 
          ]
@@ -36,6 +37,8 @@
                  <p>{item.p2}</p>
                  <p>{item.p3}</p>
                  <p>{item.p4}</p>
+                 <img src={item.icon} alt="facebook"></img>
+                 <img src={item.in} alt="instagram"></img>
               </div>
             ))}
              </div>

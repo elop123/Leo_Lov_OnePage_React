@@ -6,6 +6,7 @@ import Main from './components/Main'
 import Section from './components/Section'
 import Footer from './components/Footer'
 import Person from './components/Person'
+import Map from './components/Map'
 
 function App() {
  
@@ -16,7 +17,7 @@ function App() {
     <Main />
     <Section />
     <Person />
-    <Section  />
+    <Map />
     <Footer />
     </>
   )
