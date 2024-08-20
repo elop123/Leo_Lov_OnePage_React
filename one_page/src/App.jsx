@@ -16,7 +16,7 @@ function App() {
     <Header/>
     <Main />
     <Section />
-    <Person />
+    <Person  />
     <Map />
     <Footer />
     </>

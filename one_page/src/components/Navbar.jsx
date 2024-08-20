@@ -5,10 +5,10 @@ function Navbar(){
         <>
         <nav className={style.navStyle}>
             <ul>
-                <li><a href="#">Hjem |</a></li>
-                <li><a href="#">Advokaterne |</a></li>
-                <li><a href="#">Om LeoLov |</a></li>
-                <li><a href="#">Kontakt |</a></li>
+                <li><a href="#home">Hjem |</a></li>
+                <li><a href="#team">Advokaterne |</a></li>
+                <li><a href="#about">Om LeoLov |</a></li>
+                <li><a href="#map">Kontakt |</a></li>
             </ul>
             <h2><span>Leo</span>-Lov</h2>   
         </nav>

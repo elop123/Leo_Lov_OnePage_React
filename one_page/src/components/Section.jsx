@@ -20,7 +20,7 @@ function Section({title, description, image}){
 
       ];
     return (
-        <section className={style.sectionStyle}>
+        <section  id="about" className={style.sectionStyle}>
             {sections.map((section, index) => (
                 <div key={index} className={style.section}>
                     <div className={style.section_image}>

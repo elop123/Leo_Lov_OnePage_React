@@ -4,7 +4,7 @@ import image1 from '../assets/images/Rectangle 3.png'
 function Header(){
     return (
         <>
-        <header>
+        <header id="home">
             <div className={style.imageContainer}>
                 <img src={image1} alt="header_image" className={style.image} />
                 <div className={style.textStyle}>

@@ -14,7 +14,7 @@ function Map(){
     }
     return(
         <>
-         <div className={style.mapStyle}>
+         <div  id="map" className={style.mapStyle}>
                     <div className={style.imageContainer}>
                         <img src={map.image} alt="img" />
                     </div>

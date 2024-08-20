@@ -5,7 +5,7 @@ import person2 from '../assets/images/Ellipse 2.png'
 import person3 from '../assets/images/Ellipse 3.png'
 import person4 from '../assets/images/Ellipse 4.png'
 
-function Person(){
+function Person(props){
     const persons = [{
         image:person1,
         name:'John Harbinger',
@@ -25,11 +25,11 @@ function Person(){
 
 ]
     return (
-        <>
+        <div className={style.personContainer}>
+            <h2 id="team" className={style.title}>MØD HOLDET</h2>
  <section className={style.personGrid}>
             
             {persons.map((item, index) => (
-                
                 <div key={index} className={style.personCard}>
                     <img src={item.image} className={style.personImage} alt={item.name} />
                     <p className={style.personName}>{item.name}</p>
@@ -37,7 +37,7 @@ function Person(){
                 </div>
             ))}
         </section>
-        </>
+        </div>
     )
 }
 

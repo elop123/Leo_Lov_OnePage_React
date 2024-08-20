@@ -50,40 +50,10 @@ margin-top: 1rem;
 color: $textcolor;
 }
 
-// @media (max-width: 767px) {
-//     .cardStyle {
-//         width: 200px;
-//         height: 300px; 
-//         padding-top: 2rem;
-//         margin-top: -3rem;
-       
-//     }
-
-//     .cardContainer {
-//         display: grid;
-//         grid-template-columns: repeat(2,1fr);
-//         justify-content: center; 
-//         margin-top: 1rem; 
-//         margin-left: 1rem ;
-//         gap: 0.5rem;
-//     }
-   
-//  .cardStyle h2{
-//         font-size: 24px;
-//         //padding-top: 2rem;
-//     }
-//     .cardStyle p{
-//         font-size: 14px;
-//     }
-// .cardStyle figure{
-//     padding-bottom: -7rem;
-// }
-// }
-
 @media (max-width: 767px) {
     .cardStyle {
-        width: 100%; 
-        max-width: 200px;
+        width: 80%; 
+        max-width: 250px;
         height: auto; 
         padding-top: 1rem;
         margin: 0.5rem; 
@@ -95,7 +65,9 @@ color: $textcolor;
         grid-template-columns: repeat(2, 1fr); 
         gap: 5px; 
         margin-top: 1rem; 
-        padding: 0 0.5rem;
+        padding:  0.5rem;
+        padding-left: 0.5rem;
+        padding-bottom: 1rem;
      
     }
     .cardStyle h2{
@@ -110,23 +82,4 @@ color: $textcolor;
          }
 }
 
-// @media (max-width: 1024px) {
-//     .cardStyle {
-//         width: 200px; /* Smaller width for tablets */
-//         height: 300px; /* Smaller height for tablets */
-//     }
-
-//     .cardContainer {
-//         justify-content: center; /* Center cards for tablets */
-//     }
-//     .cardStyle h2{
-//     font-size: 24px;
-//     padding-top: 2rem;
-//      }
-//      .cardStyle p{
-//          font-size: 14px;
-//        }
-//     .cardStyle figure{
-//          padding-bottom: -7rem;
-//      }
-//     }
+ 
