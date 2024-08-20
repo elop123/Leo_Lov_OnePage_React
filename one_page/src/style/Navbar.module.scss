@@ -1,11 +1,16 @@
 @import './variables.scss';
 
+
 .navStyle{
 display: flex;
 justify-content: space-between;
 margin-right: 0;
 border-bottom: 8px solid $maincolor;
 width: 100%;
+position: sticky;
+top: 0; 
+z-index: 1000;
+background-color: #FAFAFA;
 }
 ul{
  display: inline-flex;

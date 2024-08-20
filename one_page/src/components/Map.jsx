@@ -18,7 +18,7 @@ function Map(){
                     <div className={style.imageContainer}>
                         <img src={map.image} alt="img" />
                     </div>
-                    <div className={style.textStyle}>
+                    <div className={style.textContainer}>
                         <h2>{map.title}</h2>
                         <p>{map.text1}</p>
                         <p>{map.text2}</p>
